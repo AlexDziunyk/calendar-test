@@ -1,0 +1,47 @@
+.invite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invite__column {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.invite__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.invite__button_yes {
+  cursor: pointer;
+  color: rgba(0, 186, 52, 1);
+  background-color: rgba(0, 186, 52, 0.1);
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 24px;
+  border: none;
+  transition: 0.3s;
+}
+
+.invite__button_yes:hover {
+  background-color: rgba(0, 186, 52, 0.3);
+}
+
+
+.invite__button_no {
+  cursor: pointer;
+  color: #E92C2C;
+  background-color: rgba(255, 59, 59, 0.1);
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 24px;
+  border: none;
+  transition: 0.3s;
+}
+
+.invite__button_no {
+  background-color: rgba(255, 59, 59, 0.2);
+}

@@ -1,0 +1,32 @@
+.event {
+  width: 100%;
+  max-width: 100px;
+  word-wrap: break-word;
+}
+
+.event__arrangement {
+  gap: 4px;
+  cursor: pointer;
+  background-color: rgba(255, 59, 59, 0.1);
+  padding: 4px;
+  border-radius: 4px;
+  color: #E92C2C;
+}
+
+.event__reminder {
+  gap: 4px;
+  cursor: pointer;
+  background-color: rgba(255, 150, 27, 0.1);
+  padding: 4px;
+  border-radius: 4px;
+  color: #FF9F2D;
+}
+
+.event__task {
+  gap: 4px;
+  cursor: pointer;
+  background-color: rgba(0, 133, 255, 0.1);
+  padding: 4px;
+  border-radius: 4px;
+  color: #0085FF;
+}

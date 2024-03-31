@@ -1,0 +1,12 @@
+.calendar-choose__item {
+  cursor: pointer;
+  padding: 30px;
+  background-color: rgba(0, 133, 255, 0.1);
+  color: rgba(0, 133, 255, 1);
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.calendar-choose__item:hover {
+  background-color: rgba(0, 133, 255, 0.3)
+}

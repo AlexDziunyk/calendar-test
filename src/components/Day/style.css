@@ -1,0 +1,25 @@
+.day {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ddd;
+}
+
+.day-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.day-today {
+  padding: 12px;
+  color: white;
+  background-color: rgb(28, 28, 199);
+  border-radius: 50%;
+}
+
+.day__value {}
+
+.day__events {
+  display: flex;
+  gap: 10px;
+}

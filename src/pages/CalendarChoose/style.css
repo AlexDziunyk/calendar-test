@@ -1,0 +1,26 @@
+.calendar-choose {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.calendar-choose__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+  gap: 10px;
+}
+
+.calendar-choose__title {
+  padding: 12px;
+  background-color: rgba(255, 150, 27, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  color: rgba(255, 159, 45, 1);
+  font-size: 36px;
+  font-weight: 700;
+}
